@@ -1,5 +1,6 @@
-﻿// Lecture05-1.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
+﻿// Lecture05-2.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
 //
+
 
 #include <iostream>
 #include <conio.h>
@@ -15,13 +16,13 @@ int print_title_sereen()
 	std::cout << "*  2.게임설명               *" << std::endl;
 	std::cout << "*  3.게임랭킹보기           *" << std::endl;
 	std::cout << "*  4.게임종료 (ESC)         *" << std::endl;
-	std::cout << "*****************************"  << std::endl;
+	std::cout << "*****************************" << std::endl;
 	return 0;
 
 }
 int print_introduction_screen()
 {
-	std::cout<<" *****************************" << std::endl;
+	std::cout << " *****************************" << std::endl;
 	std::cout << "ㅣ   게임설명 화면입니다    ㅣ" << std::endl;
 	std::cout << "ㅣ      메뉴얼이엇던 것     ㅣ" << std::endl;
 	std::cout << " *****************************" << std::endl;
@@ -40,25 +41,25 @@ int print_game_screen(int stage_width, int stage_height)
 
 	for (int i = 0; i < stage_width; i++) {
 		gotoxy(i, 0);
-		std::cout << "■" << std::endl;
+		std::cout << "*" << std::endl;
 	}
 	for (int i = 0; i < stage_height; i++) {
 		gotoxy(0, i);
-		std::cout << "■" << std::endl;
+		std::cout << "*" << std::endl;
 	}
 	for (int i = 0; i < stage_height; i++) {
 		gotoxy(stage_width, i);
-		std::cout << "■" << std::endl;
+		std::cout << "*" << std::endl;
 	}
 	for (int i = 0; i <= stage_width; i++) {
 		gotoxy(i, stage_height);
-		std::cout << "■" << std::endl;
+		std::cout << "*" << std::endl;
 	}
 
 	return 0;
 }
 
-	
+
 
 //	gotoxy(10, 5);
 	//std::cout << "여기가 (10,5)입니다.\n";
