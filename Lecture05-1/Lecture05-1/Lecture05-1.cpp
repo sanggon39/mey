@@ -34,48 +34,35 @@ void gotoxy(int x, int y)
 	COORD pos = { x,y };
 	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
 }
-int main()
+
+int print_game_screen(int stage_width, int stage_height)
 {
+
+	for (int i = 0; i < stage_width; i++) {
+		gotoxy(i, 0);
+		std::cout << "■" << std::endl;
+	}
+	for (int i = 0; i < stage_height; i++) {
+		gotoxy(0, i);
+		std::cout << "■" << std::endl;
+	}
+	for (int i = 0; i < stage_height; i++) {
+		gotoxy(stage_width, i);
+		std::cout << "■" << std::endl;
+	}
+	for (int i = 0; i <= stage_width; i++) {
+		gotoxy(i, stage_height);
+		std::cout << "■" << std::endl;
+	}
+
+	return 0;
+}
+
 	
-	int game_state = 0;
-	int is_game_running = 1;
-	int need_regash = 0;
-	gotoxy(10, 5);
-	std::cout << "여기가 (10,5)입니다.\n";
-	
-	while (is_game_running)
-	{
-		char key_input = 0;
 
-		switch (game_state)
-		{
-		case 0:
-			print_title_sereen();
-			key_input = _getch();
+//	gotoxy(10, 5);
+	//std::cout << "여기가 (10,5)입니다.\n";
 
-			if (key_input == '2')
-				game_state = 2;
-			else if (key_input == '4' || key_input == 27)
-			{
-				is_game_running = 0;
-			}
-			need_regash = 1;
-				
-			break; 
-		case 2:
-			print_introduction_screen();
-			key_input = 0;
-			key_input = _getch();
-
-			if (key_input == 'y')
-				game_state =0;
-			break;
-		default:
-			break;
-
-		}
-	
-		
 		/*if (_kbhit())
 		{
 			if (_getch() == '2')
@@ -89,10 +76,87 @@ int main()
 
 			}
 		}*/
+
+int main() {
+
+	int game_state = 0;
+	int need_regash = 1;
+	int is_game_runing = 1;
+
+	while (is_game_runing)
+	{
+		char key_input = 0;
+		switch (game_state)
+		{
+		case 0:
+			if (need_regash) {
+				print_title_sereen();
+			};
+			key_input = _getch();
+
+			need_regash = 0;
+
+			switch (key_input)
+			{
+			case '1':
+				game_state = 1;
+				need_regash = 1;
+				break;
+			case '2':
+				game_state = 2;
+				need_regash = 1;
+				break;
+			case '3':
+				break;
+			case '4':
+				is_game_runing = 0;
+				break;
+			case 27:
+				is_game_runing = 0;
+			default:
+				break;
+			}
+			break;
+		case 1:
+			//system("cls");
+			if (need_regash) {
+				int x = 0;
+				int y = 0;
+				std::cout << "ㅣ맵을 만들기 위해 x,y값을 입력해주세요!ㅣ" << std::endl;
+				std::cout << "*************************************************************" << std::endl;
+				scanf_s("%d", &x);
+				scanf_s("%d", &y);
+				system("cls");
+				print_game_screen(x, y);
+			};
+			key_input = _getch();
+			need_regash = 0;
+			break;
+		case 2:
+
+			if (need_regash) {
+				print_introduction_screen();
+			}
+
+			key_input = 0;
+			key_input = _getch();
+
+			need_regash = 0;
+
+			if (key_input == 'y') {
+				game_state = 0;
+				need_regash = 1;
+			}
+			else if (key_input == 'n') {
+
+			}
+
+		default:
+			break;
+		}
+
 	}
 	return 0;
-
-}
 
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
