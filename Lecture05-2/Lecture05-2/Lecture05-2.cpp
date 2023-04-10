@@ -6,6 +6,8 @@
 #include <conio.h>
 #include <Windows.h>
 
+
+cher Intimap;
 int print_title_sereen()
 {
 	std::cout << "*****************************" << std::endl;
@@ -32,28 +34,39 @@ int print_introduction_screen()
 
 void gotoxy(int x, int y)
 {
-	COORD pos = { x,y };
+	COORD pos = { x*2,y };//x가 폭이 더 좁아져서 간격을 띄워주기위해 2를 곱해줌
 	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
 }
-
+int InitMap()
+{
+	if (map == nullptr)
+	{
+		map=(char**)malloc(sizeof(char*)*stage)
+			for (int i = 0l i < stage_height; i++)
+			{
+				map[i] = new char[stage_width];
+			}
+	}
+	//뱀은3,1사이즈
+}
 int print_game_screen(int stage_width, int stage_height)
 {
 
-	for (int i = 0; i < stage_width; i++) {
+	for (int i = 0; i < stage_width+2; i++) {
 		gotoxy(i, 0);
-		std::cout << "*" << std::endl;
-	}
-	for (int i = 0; i < stage_height; i++) {
+		std::cout << "▨" << std::endl;
+	//}
+	//for (int i = 0; i < stage_height; i++) {
 		gotoxy(0, i);
-		std::cout << "*" << std::endl;
+		std::cout << "▨" << std::endl;
 	}
-	for (int i = 0; i < stage_height; i++) {
-		gotoxy(stage_width, i);
-		std::cout << "*" << std::endl;
-	}
-	for (int i = 0; i <= stage_width; i++) {
-		gotoxy(i, stage_height);
-		std::cout << "*" << std::endl;
+	for (int i = 0; i < stage_height+2; i++) {
+		gotoxy(stage_width+1, i);
+		std::cout << "▨" << std::endl;
+	//}
+	//for (int i = 0; i <= stage_width; i++) {
+		gotoxy(i, stage_height+1);
+		std::cout << "▨" << std::endl;
 	}
 
 	return 0;
@@ -79,11 +92,64 @@ int print_game_screen(int stage_width, int stage_height)
 		}*/
 
 int main() {
-
+	/*
+	gameState
+	0:게임 종료
+	1:시작 화면
+	2:게임 화면
+	3:게임 랭킹
+	*/
 	int game_state = 0;
+
+	
+
 	int need_regash = 1;
 	int is_game_runing = 1;
+	while (game_state)
+	{
+		switch (game_state)
+		{
+		case 0:
+			game_state = 0;
+			break;
+		case 1:
+			print_title_sereen;
+			int sud_title_sereen = 1;
+			while (sud_title_sereen)
+			{
+				char key_input = _getch();
+				switch (key_input)
+				{
+				case 0:
+					game_state = 0;
+					break;
+				case 1:
+					game_state = 1;
+					break;
+				case 2:
+					game_state = 2;
+					break;
 
+				case 3:
+					game_state = 3;
+					break;
+				default:
+					break;
+
+				}
+			}
+			break;
+		case 2:
+
+			break;
+		case 3:
+			break;
+		default:
+			break;
+
+		}
+	}
+	/*
 	while (is_game_runing)
 	{
 		char key_input = 0;
@@ -156,8 +222,9 @@ int main() {
 			break;
 		}
 
-	}
+	}*/
 	return 0;
+	
 
 }
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
