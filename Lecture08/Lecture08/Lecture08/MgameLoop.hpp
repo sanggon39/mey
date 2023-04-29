@@ -40,7 +40,7 @@ namespace MuSoeun
 		MgameLoop() {}//생성자
 		~MgameLoop() {}//소멸자
 		bool isGameRunning = false;
-
+		bool isPause = false;
 		void Initialize() {
 			SetCursorState(false);
 			gotoxy(3, 14);
@@ -76,14 +76,88 @@ namespace MuSoeun
 			}
 			Release();
 		}
+		
+		void RenderRest()
+		{
+			gotoxy(3, 20);
+			std::cout << "                                " << std::endl;
+			gotoxy(3, 22);
+			std::cout << "                                " << std::endl;
+			gotoxy(7, 22);
+			std::cout << "                                " << std::endl;
+		}
+		void gem()
+		{
+			gotoxy(3, 20);
+			std::cout << ANSI_COLOR_RESET "종료 하시겠습니까?  " << std::endl;
+			gotoxy(3, 22);
+			std::cout << ANSI_COLOR_RESET "[  예  ]  " << std::endl;
+			gotoxy(15, 22);
+			std::cout << ANSI_COLOR_RESET "[아니오]  " << std::endl;
+
+			bool rd=false;
+			bool ld=false;
+			while (isPause) {
+				if (_kbhit())
+				{
+					char kinput = _getch();
+					switch (kinput)
+					{
+					case Key_LEFT:
+
+						if (rd) {
+							gotoxy(15, 22);
+							std::cout << ANSI_COLOR_RESET"[아니오]  " << std::endl;
+						}
+						if (ld == false) {
+							gotoxy(3, 22);
+							std::cout << ANSI_COLOR_YELLOW"[  예  ]  " << std::endl;
+
+						}
+						ld = true;
+						rd = false;
+						break;
+					case Key_RIGHT:
+						if (ld) {
+							gotoxy(3, 22);
+							std::cout << ANSI_COLOR_RESET"[  예  ]  " << std::endl;
+						}
+						if (rd == false) {
+							gotoxy(15, 22);
+							std::cout << ANSI_COLOR_YELLOW"[아니오]  " << std::endl;
+						}
+						rd = true;
+						ld = false;
+						break;
+					case Key_ENTER:
+						if (ld) {
+							RenderRest();
+							isPause = false;
+							isGameRunning = false;
+						}
+						if (rd) {
+							RenderRest();
+							isPause = false;
+							isGameRunning = true;
+						}
+						break;
+					default:
+						//isGameRunning = true;
+						break;
+					}
+				}
+			}
+		}
 
 		void keyEvent(char Keyinput)
 		{
 			switch (Keyinput)
 			{
 			case Key_ESC://27
+				isPause = true;
 				gotoxy(2, 5);
 				std::cout << ANSI_COLOR_CYAN "ESC눌림  " << std::endl;
+				gem();
 				break;
 			case Key_LEFT://a
 				gotoxy(2, 5);
