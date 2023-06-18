@@ -1,0 +1,82 @@
+﻿  소스.cpp
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,18): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,18): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,28): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,28): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,37): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,37): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,47): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,47): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,57): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,57): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,67): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,67): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,78): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,78): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,87): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,87): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,97): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,97): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,110): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,110): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,125): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,125): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,141): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,141): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,152): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,152): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,162): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,162): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,172): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,172): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,181): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,181): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,190): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,190): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,199): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,199): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,208): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,208): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,218): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,218): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,228): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,228): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,238): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,238): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,248): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,248): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,258): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,258): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,267): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,267): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,277): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,277): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,288): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,288): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,297): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,297): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,308): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,308): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,318): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,318): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,327): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,327): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,337): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,337): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,347): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,347): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,357): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,357): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,368): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,368): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,378): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,378): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,388): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,388): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,398): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,398): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,409): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,409): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,418): warning C4838: 'double'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\user\Downloads\202227015\202227015\소스.cpp(17,418): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  202227015.vcxproj -> C:\Users\user\Downloads\202227015\x64\Debug\202227015.exe
